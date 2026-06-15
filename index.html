@@ -55,19 +55,12 @@ title: Podcast Archive
     margin-top: 1rem;
   }
 
-  .post-card {
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    gap: 18px;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 18px;
-    padding: 14px;
-    transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
-    background: rgba(255, 255, 255, 0.02);
-  }
+.post-card__image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+}
 
   .post-card:hover {
     transform: translateY(-2px);
