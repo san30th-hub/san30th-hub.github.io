@@ -32,6 +32,8 @@ footer a {
   color: inherit !important;
 }
 
-footer .site-info {
+footer em,
+footer .site-info,
+footer .site-info a {
   display: none !important;
 }
