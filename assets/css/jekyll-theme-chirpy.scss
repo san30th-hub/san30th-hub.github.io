@@ -24,3 +24,12 @@ h1,h2,h3,h4,h5,h6 {
 #sidebar .sidebar-bottom a:not(#mode-toggle) {
   display: none !important;
 }
+
+footer a[href=""],
+footer .copyright a,
+footer .footer-copyright a {
+  pointer-events: none !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
