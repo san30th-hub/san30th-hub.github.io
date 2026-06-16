@@ -25,9 +25,7 @@ h1,h2,h3,h4,h5,h6 {
   display: none !important;
 }
 
-footer a[href=""],
-footer .copyright a,
-footer .footer-copyright a {
+footer a {
   pointer-events: none !important;
   cursor: default !important;
   text-decoration: none !important;
