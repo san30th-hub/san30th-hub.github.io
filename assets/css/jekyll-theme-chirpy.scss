@@ -21,6 +21,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Noto Sans JP", sans-serif !important;
 }
 
-#sidebar .sidebar-bottom {
+#sidebar .sidebar-bottom a:not(#mode-toggle) {
   display: none !important;
 }
