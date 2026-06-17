@@ -4,16 +4,34 @@
 @import 'main';
 
 #sidebar #avatar {
-  width: 220px !important;
-  height: auto !important;
+  width: 180px !important;
+  max-width: 100% !important;
+
+  margin: 12px auto 18px auto !important;
+
+  display: flex !important;
+  justify-content: center !important;
+
+  padding: 0 !important;
   border: none !important;
-  border-radius: 0 !important;
+  box-shadow: none !important;
   background: transparent !important;
+  border-radius: 0 !important;
 }
 
 #sidebar #avatar img {
-  border-radius: 0 !important;
+  display: block;
+  margin: 0 auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+
   object-fit: contain !important;
+
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 #sidebar .site-title,
