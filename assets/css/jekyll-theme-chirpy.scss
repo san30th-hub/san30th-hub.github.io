@@ -3,47 +3,6 @@
 
 @import 'main';
 
-#sidebar {
-  align-items: stretch !important;
-}
-
-#sidebar .profile-wrapper,
-#sidebar > nav,
-#sidebar > .sidebar-bottom {
-  width: 100% !important;
-}
-
-#sidebar .profile-wrapper {
-  width: 100% !important;
-  align-self: stretch !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  text-align: center !important;
-}
-
-#sidebar .profile-wrapper #avatar {
-  display: block !important;
-  width: 180px !important;
-  margin: 12px auto 18px auto !important;
-  padding: 0 !important;
-  border: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
-  border-radius: 0 !important;
-}
-
-#sidebar .profile-wrapper #avatar img {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  background: transparent !important;
-}
-
 
 #sidebar .site-title,
 #sidebar .site-subtitle {
