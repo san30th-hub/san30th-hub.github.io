@@ -11,6 +11,26 @@
   margin-top: 0 !important;
 }
 
+
+#sidebar {
+  align-items: stretch !important;
+}
+
+#sidebar .sidebar-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0 18px;
+}
+
+#sidebar .sidebar-logo img {
+  display: block;
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+
 body,
 #sidebar,
 #sidebar a,
