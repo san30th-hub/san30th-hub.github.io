@@ -57,3 +57,23 @@ footer .site-info,
 footer .site-info a {
   display: none !important;
 }
+
+
+.preview-img {
+  display: block !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  margin: 0 auto 1rem !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+}
+
+.preview-img img {
+  display: block !important;
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
